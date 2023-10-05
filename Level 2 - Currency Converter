@@ -4,10 +4,14 @@
 # Subprograms
 # -------------------------
 def exchange(gbp, currency):
-  return gbp * 1.3
-  return gbp * 1.11
-  return gbp * 8.92
-  return gbp * 138.44
+  if currency == "USD":
+    return gbp * 1.3
+  if currency == "Euro":
+    return gbp * 1.11
+  if currency == "Yuan":
+    return gbp * 8.92
+  if currency == "Yen":
+    return gbp * 138.44
 
 # -------------------------
 # Main program
