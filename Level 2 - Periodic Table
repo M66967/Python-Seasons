@@ -1,0 +1,46 @@
+# Periodic table program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def periodic_table(element):
+  match element:
+    case "Li" | "lithium":
+      print("Symbol: Li")
+      print("Element: Lithium")
+      print("Atomic weight: 6.94")
+      print("Group: Alkali Metals")
+    case "Na" | "sodium":
+      print("Symbol: Na")
+      print("Element: Sodium")
+      print("Atomic weight: 22.99")
+      print("Group: Alkali Metals")
+    case "K" | "potassium":
+      print("Symbol: K")
+      print("Element: Potassium")
+      print("Atomic weight: 39.098")
+      print("Group: Alkali Metals")
+    case "F" | "fluorine":
+      print("Symbol: F")
+      print("Element: Fluorine")
+      print("Atomic weight: 18.998")
+      print("Group: Halogens")
+    case "Cl" | "chlorine":
+      print("Symbol: Cl")
+      print("Element: Chlorine")
+      print("Atomic weight: 35.45")
+      print("Group: Halogens")
+    case "Br" | "bromine":
+      print("Symbol: Br")
+      print("Element: Bromine")
+      print("Atomic weight: 79.904")
+      print("Group: Halogens")
+    case _:
+      print("Element is not in list")
+
+# -------------------------
+# Main program
+# -------------------------
+
+lookup = input("Enter symbol or name: ")
+periodic_table(lookup)
