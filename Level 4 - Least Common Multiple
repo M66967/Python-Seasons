@@ -1,0 +1,20 @@
+# Least common multiple program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def lcm(number1, number2):
+  if number1 > number2:
+    counter = number1
+  else:
+    counter = number2
+  while counter % number1 != 0 or counter % number2 != 0:
+    counter = counter + 1
+  return counter
+# -------------------------
+# Main program
+# -------------------------
+number1 = int(input("Enter number 1: "))
+number2 = int(input("Enter number 2: "))
+result = lcm(number1, number2)
+print("The LCM of {0} and {1} is {2}.".format(number1, number2, result))
