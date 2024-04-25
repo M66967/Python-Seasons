@@ -1,0 +1,22 @@
+This is my kind of program :) #HyperiaNo1
+
+# Ride height program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def valid_height(height):
+    if height >= 140:
+        return True
+    else:
+        return False
+    
+    
+# -------------------------
+# Main program
+# -------------------------
+height = float(input("Enter the height of the person in cm: "))
+if valid_height(height):
+    print("Keep your head back, hold on tight and brace yourself. The Power of 10 never leaves you. Sit back, brace yourself and pray. Thrillhunters, I want to play a game. Take on this fierce and fiery mechanical monster. Find Your Fearless.")
+else:
+    print("Sorry, you are too small.")
