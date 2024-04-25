@@ -1,0 +1,31 @@
+# Spirograph program
+
+# -------------------------
+# Import libraries
+# -------------------------
+import turtle
+
+# -------------------------
+# Subprograms
+# -------------------------
+def draw_shape(size, sides):
+  for side in range(sides):
+    turtle.forward(size)
+    turtle.right(360 / sides)
+    turtle.speed(100)
+    
+def spiro(turns, size, sides):
+  angle = int(360 / turns)
+  for turn in range(turns):
+    draw_shape(size, sides)
+    turtle.right(angle)
+
+
+# -------------------------
+# Main program
+# -------------------------
+spiro(20, 50, 6)
+
+turtle.hideturtle()
+
+turtle.done()
