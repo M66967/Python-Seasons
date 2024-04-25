@@ -17,6 +17,6 @@ def valid_height(height):
 # -------------------------
 height = float(input("Enter the height of the person in cm: "))
 if valid_height(height):
-    print("Keep your head back, hold on tight and brace yourself. The Power of 10 never leaves you. Sit back, brace yourself and pray. Thrillhunters, I want to play a game. Take on this fierce and fiery mechanical monster. Find Your Fearless.")
+    print("Keep your head back, hold on tight and brace yourself. 3,2,1 GO, GO, GO! The Power of 10 never leaves you. Sit back, brace yourself and pray. Thrillhunters, I want to play a game. Take on this fierce and fiery mechanical monster. Find Your Fearless.")
 else:
     print("Sorry, you are too small.")
