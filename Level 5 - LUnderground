@@ -25,7 +25,7 @@ def calculate_stops(ticket):
 # Main program
 # -------------------------
 stations = ["Brixton", "Stockwell", "Vauxhall", "Pimlico", "Victoria", "Green Park", "Oxford Circus", "Warren Street", "Euston", "King's Cross", "Highbury & Islington", "Finsbury Park", "Seven Sisters", "Tottenham Hale", "Blackhorse Road", "Walthamstow Central"]
-ticket = [0, 0]  # The two stations on the ticket
+ticket = [0, 0]  
 ticket[0] = get_station()
 ticket[1] = get_station()
 stops = calculate_stops(ticket)
